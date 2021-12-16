@@ -165,7 +165,7 @@ a:visited{
 .ingredients{
     background:rgba(190, 162, 119, 0.781);
     color: white;
-    border-radius: 50px;
+    border-radius: 20px;
     width: 600px;
     margin-left: 400px;
 }
@@ -773,9 +773,10 @@ figcaption .cartlink:hover {
     }
  
     .ingredients{
-        width: 750px;
+        width: 950px;
         margin-left: 130px;
         font-size: 18px;
+        
     }
    
     .social{
