@@ -53,9 +53,9 @@ a:visited{
     background-position: center;
     background-image: linear-gradient(to bottom, rgba(5, 5, 5, 0), rgb(2, 2, 2)),
     url();
-    background-attachment: fixed;
-    height: 100vh; 
-    width: 100vw; 
+    /* background5-attachment: fixed; */
+    height: 100%; 
+    width: 100%; 
     font-family: 'Open Sans', sans-serif; 
 
 }
@@ -193,9 +193,9 @@ a:visited{
     padding: 1px;
     color: white;
 }
-.gridcontainer .products:nth-child(odd){
-    /* background: #bbb4ad; */
-}
+/* .gridcontainer .products:nth-child(odd){
+    background: #bbb4ad;
+} */
 /*.griddescription{
     color: #8a788a;
     font-size: 20px;
@@ -295,14 +295,6 @@ figcaption .cartlink:hover {
   input[type=submit]:hover {
     background-color:  #f596309a;
   }
-   
-   .contpic {
-     width: 50%;
-     float: left;
-     padding-left: 0;
-     padding-right: 10px;
-     
-   }
 
 
    /* Footer */
@@ -346,3 +338,489 @@ figcaption .cartlink:hover {
     background: #125688;
     color: white;
   }
+
+  @media only screen and (max-width: 480px)  {
+    .gridcontainer{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 10px;
+        margin: auto;
+    }
+    h3{
+        font-size:12px;
+    }
+    .griddescription{
+        text-align: justify;
+        font-size: 12px;
+       
+    }
+    figcaption .cartlink {
+        word-spacing: 0px;
+        padding: 10px;
+        font-size: 12px;
+
+    }
+    .products figure img {
+        width: 150px;
+        height: 75px;
+    }
+        
+    .logo{
+        width: 40px;
+        height: 35px;
+        font-size: 7px;
+    }
+    .navbar{
+        color: white;
+        font-size: 3px;
+        padding: 1px;;
+        border: 1%;
+        margin-bottom: 50px;
+    }
+    a:link{
+        text-decoration: none;
+        word-spacing: 3px;
+        display: inline-block;
+        padding: 10px;
+        font-size: 10px;
+        
+    }
+    .abouttop{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .slogan{
+        font-size: 12px;
+    }
+    .abouttop img {
+        width: 300px;
+       padding-left: 40px;
+
+    }
+    .maintext{
+        margin-bottom: 100px;
+        width: 350px;
+        margin-left: 30px;
+        padding: 5px;
+    
+    }
+ 
+    .ingredients{
+        width: 350px;
+        margin-left: 30px;
+    }
+   
+    .social{
+        float: right;
+        padding-left: 45px;
+    }
+    .foot{
+        color: white;
+        font-size: 7px;
+    }
+    .social{
+        float: right;
+        padding-left: 120px;
+    }
+    .fa {
+     padding: 1px;
+     font-size: 1px;
+     width: 5px;
+     text-align: center;
+     text-decoration: none;
+     margin: 1px 1px;
+     border-radius: 55%;
+   }
+   .slide {
+    width: 375px;
+    height: 285px;
+    
+  }
+
+  .slide-img img{
+      width: 375px;
+      height:285px;
+  }
+  .indextop{
+    font-size: 7px;
+    width:350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+  } 
+.order a{
+   
+    margin-left: 130px;
+    margin-top: 10px;
+ }
+.formulario{
+    width: 50%;
+}
+}
+   
+@media only screen and (min-width: 481px) and (max-width: 767px){
+    .gridcontainer{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 10px;
+        margin: auto;
+    }
+    h3{
+        font-size:12px;
+    }
+    .griddescription{
+        text-align: justify;
+        font-size: 12px;
+       
+    }
+    figcaption .cartlink {
+        word-spacing: 0px;
+        padding: 10px;
+        font-size: 12px;
+
+    }
+    .products figure img {
+        width: 150px;
+        height: 75px;
+    }
+        
+    .logo{
+        width: 40px;
+        height: 35px;
+        font-size: 10px;
+    }
+    .navbar{
+        color: white;
+        font-size: 3px;
+        padding: 1px;;
+        border: 1%;
+        margin-bottom: 50px;
+    }
+    a:link{
+        text-decoration: none;
+        word-spacing: 3px;
+        display: inline-block;
+        padding: 10px;
+        font-size: 10px;
+        
+    }
+    .abouttop{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .slogan{
+        font-size: 12px;
+    }
+    .abouttop img {
+        width: 300px;
+       padding-left: 40px;
+
+    }
+    .maintext{
+        margin-bottom: 100px;
+        width: 350px;
+        margin-left: 30px;
+        padding: 5px;
+    
+    }
+ 
+    .ingredients{
+        width: 350px;
+        margin-left: 30px;
+    }
+   
+    .social{
+        float: right;
+        padding-left: 45px;
+    }
+    .foot{
+        color: white;
+        font-size: 12px;
+    }
+    .social{
+        float: right;
+        padding-left: 120px;
+    }
+    .fa {
+     padding: 1px;
+     font-size: 1px;
+     width: 5px;
+     text-align: center;
+     text-decoration: none;
+     margin: 1px 1px;
+     border-radius: 55%;
+   }
+   .slide {
+    width: 480px;
+    height: 385px;
+    
+  }
+
+  .slide-img img{
+      width: 480px;
+      height:385px;
+  }
+  .indextop{
+    font-size: 13px;
+    width:400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+
+  } 
+.order a{
+   
+    margin-left: 185px;
+    margin-top: 10px;
+ }
+.formulario{
+    width: 50%;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .gridcontainer{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 10px;
+        margin: auto;
+    }
+    h3{
+        font-size:16px;
+    }
+    .griddescription{
+        text-align: justify;
+        font-size: 13px;
+       
+    }
+    figcaption .cartlink {
+        padding: 10px;
+        font-size: 12px;
+
+    }
+    .products figure img {
+        width: 180px;
+        height: 100px;
+        
+    }
+        
+    .logo{
+        width: 55px;
+        height: 35px;
+        font-size: 14px;
+    }
+    .navbar{
+        color: white;
+        font-size: 3px;
+        padding: 1px;;
+        border: 1%;
+        margin-bottom: 50px;
+    }
+    a:link{
+        display: inline-block;
+        padding: 10px;
+        font-size: 20px;
+        
+    }
+    .abouttop{
+        margin-top: 100px;
+        margin-left: 50px;
+        margin-right: 10px;
+    }
+    .slogan{
+        font-size: 20px;
+        margin-left: 150px
+    }
+    .abouttop img {
+        width: 600px;
+       padding-left: 40px;
+
+    }
+    .maintext{
+        margin-top: 30px;
+        margin-bottom: 100px;
+        width: 600px;
+        margin-left: 100px;
+        padding: 5px;
+    
+    }
+ 
+    .ingredients{
+        width: 550px;
+        margin-left: 130px;
+    }
+   
+    .social{
+        float: right;
+        padding-left: 45px;
+    }
+    .foot{
+        color: white;
+        font-size: 15px;
+    }
+    .social{
+        float: right;
+        padding-left: 220px;
+    }
+    .fa {
+     padding: 1px;
+     font-size: 5px;
+     width: 35px;
+     text-align: center;
+     text-decoration: none;
+     margin: 1px 1px;
+     border-radius: 65%;
+   }
+   .slide {
+    width: 780px;
+    height: 600px;
+    margin-top: 100px;
+    
+  }
+
+  .slide-img img{
+      width: 780px;
+      height: 650px;
+  }
+  .indextop{
+    font-size: 14px;
+    width: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+
+  } 
+.order a{
+   
+    margin-left: 250px;
+    margin-top: 10px;
+ }
+.formulario{
+    width: 70%;
+    margin-bottom: 250px;
+}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+    .gridcontainer{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 1px;
+        margin: auto;
+    }
+    h3{
+        font-size:20px;
+    }
+    .griddescription{
+        text-align: justify;
+        font-size: 16px;
+       
+    }
+    figcaption .cartlink {
+        padding: -5;
+        font-size: 12px;
+
+    }
+    .products figure img {
+        width: 400x;
+        height: 200px;
+        
+    }
+        
+    .logo{
+        width: 60px;
+        height: 45px;
+        font-size: 18px;
+    }
+    .navbar{
+        color: white;
+        font-size: 3px;
+        padding: 1px;;
+        border: 1%;
+        margin-bottom: 70px;
+    }
+    a:link{
+        display: inline-block;
+        padding: 10px;
+        font-size: 22px;
+        
+    }
+    .abouttop{
+        margin-top: 100px;
+        margin-left: 150px;
+        margin-right: 50px;
+    }
+    .slogan{
+        font-size: 20px;
+        margin-left: 150px
+    }
+    .abouttop img {
+        width: 700px;
+       padding-left: 10px;
+
+    }
+    .maintext{
+        margin-top: 30px;
+        margin-bottom: 100px;
+        width: 800px;
+        margin-left: 100px;
+        padding: 5px;
+        font-size: 20px;
+    
+    }
+ 
+    .ingredients{
+        width: 750px;
+        margin-left: 130px;
+        font-size: 18px;
+    }
+   
+    .social{
+        float: right;
+        padding-left: 45px;
+    }
+    .foot{
+        color: white;
+        font-size: 16px;
+    }
+    .social{
+        float: right;
+        padding-left: 480px;
+    }
+    .fa {
+     padding: 1px;
+     font-size: 5px;
+     width: 35px;
+     text-align: center;
+     text-decoration: none;
+     margin: 1px 1px;
+     border-radius: 70%;
+   }
+   .slide {
+    width: 1024px;
+    height: 800px;
+    margin-top: 100px;
+    
+  }
+
+  .slide-img img{
+      width: 1024px;
+      height: 800px;
+  }
+  .indextop{
+    font-size: 14px;
+    width: 800px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 70px;
+
+  } 
+.order a{
+   
+    margin-left: 350px;
+    margin-top: 10px;
+ }
+.formulario{
+    width: 70%;
+    margin-bottom: 250px;
+}
+}
