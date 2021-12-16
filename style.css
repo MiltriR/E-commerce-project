@@ -145,6 +145,8 @@ a:visited{
 .abouttop img{
     background: linear-gradient(circle, rgba(12, 9, 9, 0), rgb(7, 7, 7)),;
     border-radius: 100px;
+    width:700px;
+    height:500px;
 }
 .maintext{
     background-color:  rgba(190, 162, 119, 0.781);
@@ -632,7 +634,8 @@ figcaption .cartlink:hover {
         margin-left: 150px
     }
     .abouttop img {
-        width: 600px;
+        width: 1200x;
+        height: 800px;
        padding-left: 40px;
 
     }
@@ -672,15 +675,15 @@ figcaption .cartlink:hover {
      border-radius: 65%;
    }
    .slide {
-    width: 780px;
-    height: 600px;
+    width: 880px;
+    height: 700px;
     margin-top: 100px;
     
   }
 
   .slide-img img{
-      width: 780px;
-      height: 650px;
+      width: 880px;
+      height: 700px;
   }
   .indextop{
     font-size: 14px;
@@ -754,7 +757,8 @@ figcaption .cartlink:hover {
         margin-left: 150px
     }
     .abouttop img {
-        width: 700px;
+        width: 880px;
+        height: 780px;
        padding-left: 10px;
 
     }
