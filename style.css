@@ -68,6 +68,7 @@ a:visited{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
     margin-top: 20px;
     border-radius: 10px;
+    margin-left: 220px;
     
   }
   .slide-img {
@@ -317,8 +318,8 @@ figcaption .cartlink:hover {
    }
    .fa {
     padding: 20px;
-    font-size: 30px;
-    width: 50px;
+    font-size: 28px;
+    width: 28px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -422,12 +423,12 @@ figcaption .cartlink:hover {
     }
     .social{
         float: right;
-        padding-left: 120px;
+        padding-left: 148px;
     }
     .fa {
      padding: 1px;
      font-size: 1px;
-     width: 5px;
+     width: 10px;
      text-align: center;
      text-decoration: none;
      margin: 1px 1px;
@@ -436,6 +437,7 @@ figcaption .cartlink:hover {
    .slide {
     width: 375px;
     height: 285px;
+    margin-left: 1px;
     
   }
 
@@ -580,7 +582,7 @@ figcaption .cartlink:hover {
 }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
     .gridcontainer{
         display:grid;
         grid-template-columns: 50% 50%;
@@ -634,9 +636,9 @@ figcaption .cartlink:hover {
         margin-left: 150px
     }
     .abouttop img {
-        width: 1200x;
-        height: 800px;
-       padding-left: 40px;
+        width: 600px;
+        height: 500px;
+       padding-left: 30px;
 
     }
     .maintext{
@@ -663,7 +665,9 @@ figcaption .cartlink:hover {
     }
     .social{
         float: right;
-        padding-left: 220px;
+        padding-left: 270px;
+        padding-right: 0;
+        margin-right: 0;
     }
     .fa {
      padding: 1px;
@@ -675,9 +679,10 @@ figcaption .cartlink:hover {
      border-radius: 65%;
    }
    .slide {
-    width: 880px;
-    height: 700px;
+    width: 760px;
+    height: 680px;
     margin-top: 100px;
+    margin-left: 1px;
     
   }
 
@@ -687,15 +692,15 @@ figcaption .cartlink:hover {
   }
   .indextop{
     font-size: 14px;
-    width: 600px;
+    width: 500px;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 50px;
+    margin-left: 100px;
 
   } 
 .order a{
    
-    margin-left: 250px;
+    margin-left: 270px;
     margin-top: 10px;
  }
 .formulario{
@@ -757,9 +762,9 @@ figcaption .cartlink:hover {
         margin-left: 150px
     }
     .abouttop img {
-        width: 880px;
-        height: 780px;
-       padding-left: 10px;
+        width: 780px;
+        height: 650px;
+       
 
     }
     .maintext{
@@ -773,23 +778,19 @@ figcaption .cartlink:hover {
     }
  
     .ingredients{
-        width: 950px;
-        margin-left: 130px;
+        width: 850px;
+        margin-left: 90px;
         font-size: 18px;
         
     }
    
-    .social{
-        float: right;
-        padding-left: 45px;
-    }
     .foot{
         color: white;
         font-size: 16px;
     }
     .social{
         float: right;
-        padding-left: 480px;
+        padding-left: 490px;
     }
     .fa {
      padding: 1px;
@@ -801,15 +802,19 @@ figcaption .cartlink:hover {
      border-radius: 70%;
    }
    .slide {
-    width: 1024px;
-    height: 800px;
-    margin-top: 100px;
+    width: 800px;
+    height: 700px;
+    margin-left: 120px;
+    /* margin-top: 100px;
+    margin-left: 60px;
+    margin-right: 10px; */
     
   }
 
   .slide-img img{
       width: 1024px;
       height: 800px;
+      
   }
   .indextop{
     font-size: 14px;
